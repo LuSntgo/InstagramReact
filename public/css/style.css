@@ -87,6 +87,12 @@ body {
   max-width: 614px;
 }
 
+.fixed{
+  position: fixed;
+  top: 88px;
+  right: 485px;
+}
+
 .sidebar {
   width: 293px;
 }
@@ -120,6 +126,7 @@ body {
   align-items: center;
   height: 66px;
   width: 66px;
+  margin: 0 1px;
   background-image: url('../assets/img/story-circle.svg');
   
 }
@@ -174,6 +181,7 @@ body {
   width: 32px;
   height: 32px;
   margin-right: 10px;
+  border-radius: 50%;
 }
 
 .post .usuario, .post .topo img, .post .fundo img, .post ion-icon, .post strong {
@@ -206,6 +214,7 @@ body {
   width: 20px;
   height: 20px;
   margin-right: 10px;
+  border-radius: 50%;
 }
 
 .post:last-child {
@@ -234,6 +243,7 @@ body {
   flex-direction: column;
   margin-left: 14px;
   font-weight: 300;
+  line-height: 18px;
   color: #8E8E8E;
 }
 
@@ -265,6 +275,7 @@ body {
 .sidebar .sugestoes img {
   width: 32px;
   height: 32px;
+  border-radius: 50%;
 }
 
 .sidebar .sugestoes .seguir {
@@ -323,6 +334,9 @@ body {
     justify-content: center;
     width: 100%;
   }
+  .setinha {
+    display: none;
+  }
 }
 
 @media (max-width: 614px) {
@@ -361,6 +375,9 @@ body {
 
   .navbar .icones-mobile {
     display: flex;
+  }
+  .setinha {
+    display: none;
   }
 
   .fundo-mobile {

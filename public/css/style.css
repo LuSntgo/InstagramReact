@@ -163,7 +163,9 @@ body {
   flex-direction: column;
   margin-top: 18px;
 }
-
+.bold{
+  font-weight: 400;
+}
 .post .topo {
   display: flex;
   justify-content: space-between;

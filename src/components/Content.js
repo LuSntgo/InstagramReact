@@ -26,6 +26,12 @@ const posts = [
     likes: "makiz",
     text: "outras 101.523 pessoas",
   },
+  {
+    user: "caitlyn",
+    img: "post-caitlyn.jpg",
+    likes: "lust",
+    text: "outras 101.523 pessoas",
+  },
 ];
 
 

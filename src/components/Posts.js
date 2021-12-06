@@ -27,7 +27,7 @@ export default function Posts(props) {
             </div>
           </div>
           <div class="curtidas">
-          <img src={`assets/img/${props.likes}.jpg`} alt={props.likes} />
+            <img src={`assets/img/${props.likes}.jpg`} alt={props.likes} />
             <div class="texto">
               Curtido por <span class="bold">{props.likes}</span> e{" "}
               <span class="bold">{props.text}</span>

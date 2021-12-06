@@ -1,5 +1,6 @@
 import Stories from "./Stories";
 import Posts from "./Posts";
+import Aside from "./Aside";
 
 const stories = [
   { user: "kagome" },
@@ -27,6 +28,7 @@ const posts = [
   },
 ];
 
+
 export default function Content() {
   return (
     <>
@@ -40,9 +42,12 @@ export default function Content() {
           <Posts user={p.user} img={p.img} likes={p.likes} text={p.text} />
           
         ))}
+        </div>
+     
+        <div class="usuarios">
+          <Aside />         
+         </div>
         
-      </div>
-      
     </>
   );
 }
